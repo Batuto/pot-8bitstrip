@@ -7,7 +7,7 @@ int i, value;
 
 
 void setup(){
-  for(i = 2; i < 8; i++)
+  for(i = 0; i < 8; i++)
     pinMode(i, OUTPUT);
   pinMode(14, INPUT);
   PORTD = 0;
